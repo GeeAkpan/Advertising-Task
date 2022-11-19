@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+section{
+  padding: 30px;
+  margin: 10px;
+}
+
+.section1{
+  display: flex;
+  padding: 30px;
+}
+
+.diver{
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.Intro{
+  font-weight: 600;
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+span{
+  color: #1D1DD8;
+}
+
+.diver > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 30px;
+}
+
+button{
+  padding: 16px 32px;
+  width: 148px;
+  height: 60px;
+  border-radius: 4px;
+  border-style: none;
+  background-color: #1D1DD8;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: aliceblue;
+  border-style: groove;
+  color: #1D1DD8;
+  border-radius: 4px;
+}
+
+.card {
+  display: grid;
+  padding: 40px;
+}
+
+.card > h2{
+  text-align: center;
+}
+
+.cardlist {
+  display: flex;
+  text-align: center;
+}
+
+.cardlist > h2{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.cardlist > h3{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.cardlist p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.cards{
+  border-style: groove;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 46px;
+}
+
+.button{
+  text-align: center;
+  margin: 30px;
+}
+
+.partners{
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+  background-color: #1D1DD8;
+  color: white;
+}
+
+.partners h3{
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.partnerlist img{
+  padding: 40px;
+}
+
+.finaltext{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.finaltext h3{
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.finaltext p{
+  font-weight: 400;
+  font-size: 18px;
+}
